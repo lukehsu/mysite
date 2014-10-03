@@ -1,0 +1,41 @@
+			.item {
+				width: 200px;
+				margin: 9px;
+				padding:10px;
+				float: left;
+				display:block;
+                font-family:"微軟正黑體";
+				color: #555;
+				padding: 10px;
+				-webkit-box-shadow:0 1px 3px rgba(34, 25, 25, 0.4);
+					 -moz-box-shadow:0 1px 3px rgba(34, 25, 25, 0.4);
+				    -ms-box-shadow:0 1px 3px rgba(34, 25, 25, 0.4);
+				     -o-box-shadow:0 1px 3px rgba(34, 25, 25, 0.4);
+				        box-shadow:0 1px 3px rgba(34, 25, 25, 0.4);
+				-webkit-border-radius:5px;
+					 -moz-border-radius:5px;
+				    -ms-border-radius:5px;
+				     -o-border-radius:5px;
+				        border-radius:5px;
+			}
+            .item:hover {
+                    opacity:0.5;
+                    }
+
+			.item:hover{
+				-webkit-box-shadow:0 1px 15px rgba(34, 25, 25, 0.4);
+					 -moz-box-shadow:0 1px 15px rgba(34, 25, 25, 0.4);
+				    -ms-box-shadow:0 1px 15px rgba(34, 25, 25, 0.4);
+				     -o-box-shadow:0 1px 15px rgba(34, 25, 25, 0.4);
+				        box-shadow:0 1px 15px rgba(34, 25, 25, 0.4);
+			}
+
+			.item img{
+				width: 200px;
+				height:auto;
+			}
+            a {
+    text-decoration: none;
+    color : #555;
+}
+
