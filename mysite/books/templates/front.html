@@ -7,10 +7,28 @@
 <script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.masonry.min.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.infinitescroll.min.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.flexslider.js"></script>
 <script type="text/javascript" src="{{ STATIC_URL }}js/js3in1.js"></script>
+<link   type="text/css" rel="stylesheet" href="{{ STATIC_URL }}css/flexslider.css"/>
 <link   type="text/css" rel="stylesheet" href="{{ STATIC_URL }}css/stylef.css"/>
+<script>
+    $(function() {
+    $(".flexslider").flexslider();
+});
+</script>
 </head>
-<body  style="background: #f1f2f3;">
+<body  style="background: #f1f2f3;margin:0; ">
+<div class="test1" style="background: #666666;height: 40px; margin-bottom: 10px;width:100%;color: #ffffff;font-size: 18px;">
+123
+</div>
+<div class="flexslider" >
+      <ul class="slides">
+        <li><img style="height: 530px" src="{{ STATIC_URL }}pic/1.jpg" /></li>
+        <li><img style="height: 530px" src="{{ STATIC_URL }}pic/2.jpg" /></li>
+        <li><img style="height: 530px" src="{{ STATIC_URL }}pic/3.jpg" /></li>
+        <li><img style="height: 530px" src="{{ STATIC_URL }}pic/4.jpg" /></li>
+      </ul>
+</div>
 <div id="container">
 {% autopaginate allinfo 5 %}
 {% for all1,all2,all3,all4 in allinfo %}

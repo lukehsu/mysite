@@ -1,11 +1,11 @@
 			#container{
-				margin: 0px auto;
+				margin: 0px auto ;
 				}
 
 			.item {
 				width: 200px;
 				margin: 12px;
-				padding:0px;
+				padding:0;
 				float: left;
 				display:block;
 				/*-webkit-box-shadow:0 1px 3px rgba(34, 25, 25, 0.4);
